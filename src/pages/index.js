@@ -3,20 +3,24 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Hero from "../components/hero"
 
-const NotFoundPage = ({ data, location }) => {
+
+const IndexPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <Seo title="Index" />
-      <h1>Index</h1>
-      <p>Home page</p>
-    </Layout>
+    <Hero />
+    // <Layout location={location} title={siteTitle}>
+    //   <Seo title="Index" />
+    //   <h1>Index</h1>
+    //   <p>Homde page</p>
+    //   <Hero />
+    // </Layout>
   )
 }
 
-export default NotFoundPage
+export default IndexPage
 
 export const pageQuery = graphql`
   query {

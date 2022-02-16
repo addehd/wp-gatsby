@@ -1,3 +1,9 @@
+<!-- TODO -->
+# 📝 TODO ADDEHD 
+- Webbdesign index.js [Hero block]
+- npm install gatsby-plugin-mailchimp
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
@@ -5,9 +11,12 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby WordPress blog starter
+  Cloned Gatsby WordPress blog starter for addehd page.  
 </h1>
 
+Thank you kind people of Gatsby community - Addehd. 
+
+Gatsby:
 Kick off your wordpress gatsby project with this blog boilerplate. This starter ships with the main Gatsby Wordpress configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
