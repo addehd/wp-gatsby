@@ -1,3 +1,12 @@
+p , a, span, button{
+font-feature-settings: sans-serif;
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 300; }
+
 #hero-bg {
   object-fit: cover;
   width: 100vw;
@@ -5,6 +14,47 @@
   position: fixed;
   top: 0;
   left: 0; }
+
+#hero-banner {
+  overflow: hidden; }
+
+#hero-banner .sliding-background {
+  width: 5076px;
+  margin-top: 5rem;
+  height: 7rem;
+  animation: slide 20s linear infinite;
+ position: absolute;
+ bottom: 0; }
+
+#hero-banner .item {
+  pointer-events: all;
+  visibility: inherit;
+  box-sizing: inherit;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase; } 
+
+#hero-banner .btn-pill {
+    font-size: 18px;
+    box-sizing: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    margin-left: .75em;
+    margin-right: .75em;
+    padding: .3em 1em .25em;
+    text-transform: uppercase; }
+
+@keyframes slide{
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
 
 #mailchimp {
   position: fixed;
@@ -23,7 +73,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 42rem; }
+  max-width: 69rem;
+  margin-top: -5rem; }
 
 #mailchimp form input {  
     background: none!important;
@@ -31,8 +82,8 @@
     border-bottom: solid 1px white;
     border-radius: 0;
     margin-left: 1rem;
-    margin-right: 1rem;}
-
+    margin-right: 1rem;
+    font-size: 2rem; }
 
 #mailchimp input:focus {
     outline: none; }
@@ -40,7 +91,7 @@
 #mailchimp button {
 	border: none;
 	padding: 1rem 2rem;
-	font: inherit;
+  font-size: 1.2rem;
 	cursor: pointer;
 	outline: inherit;
   margin-top: 0.5rem;
@@ -49,9 +100,9 @@
   border-radius: 3rem;
   width: 100%; }
 
-
 ::placeholder {
   color: white;
+  font-weight: 200!important;
   opacity: 1; /* Firefox */ }
   
 :-ms-input-placeholder { /* Internet Explorer 10-11 */

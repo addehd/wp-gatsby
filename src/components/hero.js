@@ -1,5 +1,6 @@
 import React from 'react'
 import video from "./hero-bg.mp4"
+import Banner from "../components/banner"
 
 export default function hero() {
   return (
@@ -11,9 +12,10 @@ export default function hero() {
       <div id="mailchimp">
         <form>
           <input type="email" placeholder="Email Address" />
-          <button type="submit">Subscribe</button>  
+          <button type="submit">GET PRE-RELEASE INFO</button>  
         </form>
       </div>
+      <Banner/>
     </section>
   )
 }
