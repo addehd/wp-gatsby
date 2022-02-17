@@ -2,7 +2,7 @@ import React from 'react'
 import video from "./hero-bg.mp4"
 import Banner from "../components/banner"
 
-export default function hero() {
+export default function subscribe() {
   return (
     <section>
       {/* <img src={logo} alt="logo" /> */}

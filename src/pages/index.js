@@ -3,19 +3,18 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Hero from "../components/hero"
+import Subscribe from "../components/Subscribe"
 
 
 const IndexPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
-    <Hero />
+    <section>
+      <Seo title="Index" />
+      <Subscribe />
+    </section>
     // <Layout location={location} title={siteTitle}>
-    //   <Seo title="Index" />
-    //   <h1>Index</h1>
-    //   <p>Homde page</p>
-    //   <Hero />
     // </Layout>
   )
 }
