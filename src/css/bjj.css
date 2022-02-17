@@ -7,7 +7,7 @@ font-family: sans-serif;
 font-style: normal;
 font-weight: 300; }
 
-#hero-bg {
+#subscribe-bg {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -15,10 +15,10 @@ font-weight: 300; }
   top: 0;
   left: 0; }
 
-#hero-banner {
+#subscribe-banner {
   overflow: hidden; }
 
-#hero-banner .sliding-background {
+#subscribe-banner .sliding-background {
   width: 5076px;
   margin-top: 5rem;
   height: 7rem;
@@ -26,7 +26,7 @@ font-weight: 300; }
  position: absolute;
  bottom: 0; }
 
-#hero-banner .item {
+#subscribe-banner .item {
   pointer-events: all;
   visibility: inherit;
   box-sizing: inherit;
@@ -34,7 +34,7 @@ font-weight: 300; }
   font-size: 18px;
   text-transform: uppercase; } 
 
-#hero-banner .btn-pill {
+#subscribe-banner .btn-pill {
     font-size: 18px;
     box-sizing: inherit;
     text-decoration: none;

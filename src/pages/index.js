@@ -4,16 +4,17 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Subscribe from "../components/Subscribe"
-
+import Hero from "../components/Hero"
 
 const IndexPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
-    <section>
+    <>
       <Seo title="Index" />
       <Subscribe />
-    </section>
+      {/* <Hero /> */}
+    </>
     // <Layout location={location} title={siteTitle}>
     // </Layout>
   )

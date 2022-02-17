@@ -4,9 +4,9 @@ import Banner from "../components/banner"
 
 export default function subscribe() {
   return (
-    <section>
+    <>
       {/* <img src={logo} alt="logo" /> */}
-      <video id="hero-bg" autoPlay loop muted>
+      <video id="subscribe-bg" autoPlay loop muted>
         <source src={video} type="video/mp4" />
       </video>
       <div id="mailchimp">
@@ -16,6 +16,6 @@ export default function subscribe() {
         </form>
       </div>
       <Banner/>
-    </section>
+    </>
   )
 }
