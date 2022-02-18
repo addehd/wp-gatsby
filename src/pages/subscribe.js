@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Subscribe from "../components/subscribe"
-import Hero from "../components/hero"
 import Header from "../components/header"
 
 const IndexPage = ({ data, location }) => {
@@ -12,13 +11,9 @@ const IndexPage = ({ data, location }) => {
 
   return (
     <>
-      <Seo title="Index" />
-      {/* <Subscribe /> */}
       <Header />
-      <Hero />
-   
-    {/* // <Layout location={location} title={siteTitle}>
-    // </Layout> */}
+      <Seo title="Subscribe to BJJ token" />
+      <Subscribe />
     </>
   )
 }

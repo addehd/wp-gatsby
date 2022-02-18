@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p, a, h1, h2, h3, h4, h5, h6 {
+letter-spacing: 0.15rem;
+}
+
 p , a, span, button{
 font-feature-settings: sans-serif;
 -webkit-text-size-adjust: 100%;
@@ -6,6 +14,23 @@ text-rendering: optimizeLegibility;
 font-family: sans-serif;
 font-style: normal;
 font-weight: 300; }
+
+.hero {
+  background: #100e36;
+}
+
+#line {
+  animation: 1s fadeIn;
+  animation-fill-mode: both;
+  opacity:1;  
+  animation: flickerAnimation 1s infinite;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
 
 #subscribe-bg {
   object-fit: cover;
@@ -16,7 +41,8 @@ font-weight: 300; }
   left: 0; }
 
 #subscribe-banner {
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 11; }
 
 #subscribe-banner .sliding-background {
   width: 5076px;
@@ -63,11 +89,11 @@ font-weight: 300; }
   color: #f1f1f1;
   width: 100%;
   height: 100vh;
-  z-index: 11;
   margin: 0;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background: #100c548c; }
 
 #mailchimp form {
   display: flex;
@@ -100,13 +126,30 @@ font-weight: 300; }
   border-radius: 3rem;
   width: 100%; }
 
-::placeholder {
-  color: white;
-  font-weight: 200!important;
-  opacity: 1; /* Firefox */ }
-  
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white!important;
+    font-weight: 300;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: white!important;
+   font-weight: 300;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: white!important;
+   font-weight: 300;
+   opacity:  1;
+}
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: white; }
-
+   color: white!important;
+   font-weight: 300;
+}
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: white; }
+   color: white!important;
+   font-weight: 300;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color: white!important;
+   font-weight: 300;
+}
