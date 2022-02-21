@@ -19,11 +19,24 @@ font-weight: 300; }
   background: #100e36;
 }
 
-#line {
+.pulse {
   animation: 1s fadeIn;
   animation-fill-mode: both;
   opacity:1;  
   animation: flickerAnimation 1s infinite;
+}
+
+.pulse-slow {
+  animation:0.2s fadeIn;
+  animation-fill-mode: both;
+  opacity:1;  
+  animation: flickerAnimation 1s infinite;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(#00f9ff, #1f56ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @keyframes flickerAnimation {
@@ -93,7 +106,7 @@ font-weight: 300; }
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #100c548c; }
+  background: #1a174a8c; }
 
 #mailchimp form {
   display: flex;

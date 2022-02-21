@@ -31,7 +31,13 @@ module.exports = {
           `https://wordpress-569340-2431551.cloudwaysapps.com/graphql`,
       },
     },
-
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://garabato.us19.list-manage.com/subscribe?u=90bb98cf20c49d57e7bbfbfc0&id=e7d036ab2d', // string; add your MC list endpoint here; see instructions below
+          timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+      },
+    },
     /**
      * We need this plugin so that it adds the "File.publicURL" to our site
      * It will allow us to access static url's for assets like PDF's

@@ -6,9 +6,13 @@ import Seo from "../components/seo"
 import Subscribe from "../components/subscribe"
 import Hero from "../components/hero"
 import Header from "../components/header"
+import Message from "../components/message"
+import Test from "../components/test"
+import NinjaTurtle from "../components/ninjaturtle"
 
-const IndexPage = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
+
+const IndexPage = () => {
+  // const siteTitle = data.site.siteMetadata.title
 
   return (
     <>
@@ -16,21 +20,13 @@ const IndexPage = ({ data, location }) => {
       {/* <Subscribe /> */}
       <Header />
       <Hero />
-   
-    {/* // <Layout location={location} title={siteTitle}>
-    // </Layout> */}
+      <Message />
+      <Test />
+      <NinjaTurtle />
+      {/* <Layout/> */}
+      
     </>
   )
 }
 
 export default IndexPage
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

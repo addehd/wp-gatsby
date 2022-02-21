@@ -1,5 +1,5 @@
 import React from 'react'
-import video from "./hero-bg.mp4"
+import Video from "../media/hero-bg.mp4"
 import Banner from "../components/banner"
 
 export default function subscribe() {
@@ -7,11 +7,11 @@ export default function subscribe() {
     <>
       {/* <img src={logo} alt="logo" /> */}
       <video id="subscribe-bg" autoPlay loop muted>
-        <source src={video} type="video/mp4" />
+        <source src={Video} type="video/mp4" />
       </video>
       <div id="mailchimp">
         <form>
-          <input type="email" placeholder="Email Address" />
+          <input type="email" placeholder="Your email" />
           <button type="submit">GET PRE-RELEASE INFO</button>  
         </form>
       </div>
