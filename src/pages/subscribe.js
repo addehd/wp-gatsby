@@ -13,7 +13,7 @@ const IndexPage = ({ data, location }) => {
     <>
       <Header />
       <Seo title="Subscribe to BJJ token" />
-      <h1 className="fixed z-20">...-{siteTitle}</h1>
+      {/* <h1 className="fixed z-20">...-{siteTitle}</h1> */}
       <Subscribe />
     </>
   )

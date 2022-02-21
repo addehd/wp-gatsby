@@ -10,7 +10,7 @@ export default function subscribe() {
         <source src={Video} type="video/mp4" />
       </video>
       <div id="mailchimp">
-        <form>
+        <form className="ml-11 mr-11">
           <input type="email" placeholder="Your email" />
           <button type="submit">GET PRE-RELEASE INFO</button>  
         </form>
