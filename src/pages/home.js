@@ -3,32 +3,30 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Subscribe from "../components/subscribe"
+import Hero from "../components/hero"
+import Header from "../components/header"
+import Message from "../components/message"
+import Test from "../components/test"
+import NinjaTurtle from "../components/ninjaturtle"
 
-const NotFoundPage = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
+
+const IndexPage = () => {
+  // const siteTitle = data.site.siteMetadata.title
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <Seo title="404: Not Found" />
-      <h1>Helo Gatsby!</h1>
-      <li>
-        TODO:
-        get familiar with Gatsby
-        add Gatsby plugins [Gatsby Image]
-        is a there a Gatsby form plugin?
-      </li>
-    </Layout>
+    <>
+      <Seo title="Index" />
+      {/* <Subscribe /> */}
+      <Header />
+      <Hero />
+      <Message />
+      <Test />
+      <NinjaTurtle />
+      {/* <Layout/> */}
+        
+    </>
   )
 }
 
-export default NotFoundPage
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
+export default IndexPage

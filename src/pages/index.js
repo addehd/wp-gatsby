@@ -17,14 +17,14 @@ const IndexPage = () => {
   return (
     <>
       <Seo title="Index" />
-      {/* <Subscribe /> */}
       <Header />
-      <Hero />
+      <Subscribe />
+      {/* <Hero />
       <Message />
       <Test />
-      <NinjaTurtle />
+      <NinjaTurtle /> */}
       {/* <Layout/> */}
-      
+
     </>
   )
 }

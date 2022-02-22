@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+#gatsby-focus-wrapper{
+  overflow: hidden;
+} 
 body {
   overflow-x: hidden;
 }
@@ -48,14 +51,6 @@ font-weight: 300; }
   50%  { opacity:0; }
   100% { opacity:1; }
 }
-
-#subscribe-bg {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0; }
 
 #subscribe-banner {
   overflow: hidden;
