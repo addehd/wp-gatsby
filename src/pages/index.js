@@ -16,7 +16,7 @@ const IndexPage = () => {
 
   return (
     <>
-      <Seo title="Index" />
+      <Seo title="BJJ Token" />
       <Header />
       <Subscribe />
       {/* <Hero />
