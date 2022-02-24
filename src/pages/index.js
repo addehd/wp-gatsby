@@ -9,11 +9,10 @@ import Header from "../components/header"
 import Message from "../components/message"
 import Test from "../components/test"
 import NinjaTurtle from "../components/ninjaturtle"
-
+import Grid from "../components/grid"
 
 const IndexPage = () => {
   // const siteTitle = data.site.siteMetadata.title
-
   return (
     <>
       <Seo title="BJJ Token" />

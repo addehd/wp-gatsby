@@ -5,11 +5,10 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Subscribe from "../components/subscribe"
 import Hero from "../components/hero"
-import Header from "../components/header"
+import Header from "../components/belt-header"
 import Message from "../components/message"
 import Test from "../components/test"
-import NinjaTurtle from "../components/ninjaturtle"
-
+import Grid from "../components/grid"
 
 const IndexPage = () => {
   // const siteTitle = data.site.siteMetadata.title
@@ -22,7 +21,7 @@ const IndexPage = () => {
       <Hero />
       <Message />
       <Test />
-      <NinjaTurtle />
+      <Grid />
       {/* <Layout/> */}
         
     </>

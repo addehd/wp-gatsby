@@ -13,10 +13,14 @@ export default function test() {
           </div>
           
           <div className="flex justify-center flex-col p-11 w-1/2">
-            <h5 className='font-extralight text-white'>#getbbjtoken</h5>
-            <h1 className="text-white text-7xl mt-11 mb-11 font-bold tracking-wider">Cryptocurrency backed by the BJJ community</h1>
-            <p className='text-white'> Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in 
-                American crime. Do you believe that shit?
+            <h2 className="text-white text-3xl mt-3 mb-3 tracking-wider">WHO</h2>
+            <p className='text-white'> The target consumer is only ONE of the audiences you'll have to build relationships with. Every brand is influenced by 3-4 groups who often have different priorities or agendas. Who are they? What impact will they have on your ability to grow your brand? What can you do to help them find a place of agreement so you can focus your brand strategy and start growing?
+            </p>
+            <h2 className="text-white text-3xl mt-3 mb-3 tracking-wider">WHAT</h2>
+            <p className='text-white'>What you can uniquely offer in a way that no other brand in the world can is an EXPERIENCE. What will experience do you want your consumer to have?This  impacts every aspect of your business from marketing, sales, operations, staffing, product development or service creation, fulfillment & shipping / providing the service... you name it. The customer experience is EVERYTHING!
+            </p>
+            <h2 className="text-white text-3xl mt-3 mb-3 tracking-wider">WHY</h2>
+            <p className='text-white'> The "why" is your brand's DNA. It's what makes your brand unique. It's the experience you want people to feel from engaging with it. It has a personality. A voice. An attitude. A style. It cares. It engages and is engaging. It has a point of view. 
             </p>
           </div>
       </section>
