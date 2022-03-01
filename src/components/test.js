@@ -1,18 +1,18 @@
 import React from 'react'
-import Line from "../media/lines.png"
-import Fighter from "../media/fighter.png"
+import Line from "../media/fighters-lines.png"
+import Fighter from "../media/fighters.png"
 
 export default function test() {
   return (
-    <div className='hero'>
-      <section className='container flex m-auto h-screen'>
-          <div className="relative w-1/2">
+    <div className='bg-bjjblue'>
+      <section className='container m-auto h-screen hidden sm:flex'>
+          <div className="relative w-2/3">
             <img className="w-full top-0 bottom-0 m-auto h-auto absolute left-0" src={Fighter}></img>
             <img className="pulse w-full top-0 bottom-0 m-auto h-auto absolute left-0" src={Line}></img>
-            <img className="pulse-slow w-full top-0 bottom-0 m-auto h-auto absolute left-0" src={Line}></img>
+           {/* <img className="pulse-slow w-full top-0 bottom-0 m-auto h-auto absolute left-0" src={Line}></img> */}
           </div>
           
-          <div className="flex justify-center flex-col p-11 w-1/2">
+          <div className="flex justify-center flex-col p-11 w-1/3">
             <h2 className="text-white text-3xl mt-3 mb-3 tracking-wider">WHO</h2>
             <p className='text-white'> The target consumer is only ONE of the audiences you'll have to build relationships with. Every brand is influenced by 3-4 groups who often have different priorities or agendas. Who are they? What impact will they have on your ability to grow your brand? What can you do to help them find a place of agreement so you can focus your brand strategy and start growing?
             </p>

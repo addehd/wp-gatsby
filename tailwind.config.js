@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     colors: {
       'bjjred': '#ed2025',
-      'bjjblue': '#3f3cbb',
+      'bjjblue': '#0f0e36',
       'white': '#ffffff',
       'black': '#000000',
     },
