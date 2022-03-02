@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import { Link } from 'gatsby'
 import Logo from '../media/logo.svg'
+import MobileMenu from './mobile-menu';
 //import Scrolly from '../components/scrolly'
 
 export default function Header() {
@@ -31,8 +32,8 @@ export default function Header() {
         <Link className='text-white px-11' to="/">Blockchain</Link>
         <Link className='text-white px-11' to="/">Blog</Link>
         <Link className='text-white px-11' to="/">Contact</Link>
-        {/* <Scrolly /> */}
       </nav>
+      <MobileMenu />
     </div>
   )
 }
