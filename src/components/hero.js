@@ -12,7 +12,7 @@ export default function Hero() {
 
             <h5 className='font-light text-white lg:text-2xl'><span className='text-gradient'>#</span>getbjjtoken</h5>
             <h1 className="text-white text-4xl sm:text-6xl 2xl:text-5xl sm:mt-11 sm:mb-11 mt-1 mb-1 font-extrabold tracking-wider">Crypto & NFT's backed by the BJJ community</h1>
-            <p className='text-white lg:text-xl'> We are proud to present bjjtoken.io that is founded by experienced BJJ Black belts, for the needs and benefits of the BJJ community.</p>
+            <p className='text-white lg:text-xl pb-11'> We are proud to present bjjtoken.io that is founded by experienced BJJ Black belts, for the needs and benefits of the BJJ community.</p>
 
           </div>
 

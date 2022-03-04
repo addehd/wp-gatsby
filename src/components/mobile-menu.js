@@ -1,23 +1,31 @@
-import React from 'react'
+import React, {useState} from 'react'
+import { Link } from 'gatsby'
 
 export default function MobileMenu() {
+  const [menu, showMenu] = useState(true);
+  
+  function toggleMenu() {
+    showMenu(!menu);
+    console.log(menu); }
+
   return (
     <>
       <section className="top visible sm:hidden">
           <div>
-              <div id="nav-icon1">
+              <div className={ menu ? "close": "open" } onClick={toggleMenu} id="nav-icon">
                   <span></span>
                   <span></span>
                   <span></span>
               </div>
           </div>
       </section>
-      <div id="side">
+      <div className={ menu ? "sideoff": "sidemove" }  id="side">
           <nav>
-              <a href="/">Hem</a>
-              <a href="/om-oss">Historia</a>
-              <a href="/aktiv">Aktiv</a>
-              <a href="/vaken">Vaken</a>
+          <Link className='text-white pl-[5%]' to="/home">Home</Link>
+          <Link className='text-white pl-[5%]' to="/">NFT's</Link>
+          <Link className='text-white pl-[5%]' to="/">Blockchain</Link>
+          <Link className='text-white pl-[5%]' to="/">Blog</Link>
+          <Link className='text-white pl-[5%]' to="/">Contact</Link>
           </nav>
       </div>
     </>

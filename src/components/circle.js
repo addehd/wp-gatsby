@@ -9,13 +9,13 @@ export default function Circle() {
 
   return (
     <>
-      <img onClick={handleClick}  className="rotate top-0 left-[11rem] bottom-[11rem] sm:bottom-0 right-0 m-auto h-auto absolute max-w-[4rem] sm:max-w-[5rem]" src={CircleSVG}></img>
-      <div  onClick={handleClick} style={ show ? { visibility:'visible', transition: 'background-color 0.2s ease-in' } : {visibility:'hidden'}} className="bottom-[11rem] top-20 left-[11rem] right-0 m-auto h-auto absolute w-[11rem] h-[8rem] right-[10rem] bottom-[7rem] buchecha">
+      <img onClick={handleClick}  className="rotate top-0 left-[11rem] bottom-0 sm:bottom-0 right-0 m-auto h-auto absolute max-w-[4rem] sm:max-w-[5rem]" src={CircleSVG}></img>
+      <div  onClick={handleClick} style={ show ? { visibility:'visible', transition: 'background-color 0.2s ease-in' } : {visibility:'hidden'}} className="bottom-[6rem] top-0 left-[7.7rem] right-0 m-auto h-auto absolute w-[11rem] h-[8rem] right-[10rem] bottom-[7rem] buchecha">
         <table className="infobox vcard">
           <tbody>
           <tr>
             <th>Name</th>
-            <td>Buchecha</td>
+            <td>Buchecha...</td>
           </tr>
           <tr>
             <th>Nationality</th>

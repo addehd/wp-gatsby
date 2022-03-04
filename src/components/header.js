@@ -25,13 +25,13 @@ export default function Header() {
 
   return (
     <div style={ visible ? { background:'#000000d9', transition: 'background-color 0.2s ease-in' } : {}} className="fadein header m-auto fixed z-20 w-full flex">
-      <Link to="/"><img className="w-[15rem] sm:w-[25rem] px-7 sm:px-11" src={Logo}></img></Link>
-      <nav className="hidden sm:flex items-center w-full inline-block justify-end px-11">
-        <Link className='text-white px-11' to="/home">Home</Link>
-        <Link className='text-white px-11' to="/">NFT's</Link>
-        <Link className='text-white px-11' to="/">Blockchain</Link>
-        <Link className='text-white px-11' to="/">Blog</Link>
-        <Link className='text-white px-11' to="/">Contact</Link>
+      <Link className='z-[3]' to="/"><img className="w-[15rem] sm:w-[25rem] px-7 sm:px-11" src={Logo}></img></Link>
+      <nav className="hidden sm:flex items-center w-full justify-end px-11">
+        <Link className='text-white pl-[5%]' to="/home">Home</Link>
+        <Link className='text-white pl-[5%]' to="/">NFT's</Link>
+        <Link className='text-white pl-[5%]' to="/">Blockchain</Link>
+        <Link className='text-white pl-[5%]' to="/">Blog</Link>
+        <Link className='text-white pl-[5%]' to="/">Contact</Link>
       </nav>
       <MobileMenu />
     </div>
