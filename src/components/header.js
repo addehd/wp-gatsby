@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
-
 import { Link } from 'gatsby'
 import Logo from '../media/logo.svg'
 import MobileMenu from './mobile-menu';
-//import Scrolly from '../components/scrolly'
 
 export default function Header() {
   const [offset, setOffset] = useState(0);
@@ -27,11 +25,11 @@ export default function Header() {
     <div style={ visible ? { background:'#000000d9', transition: 'background-color 0.2s ease-in' } : {}} className="fadein header m-auto fixed z-20 w-full flex">
       <Link className='z-[3]' to="/"><img className="w-[15rem] sm:w-[25rem] px-7 sm:px-11" src={Logo}></img></Link>
       <nav className="hidden sm:flex items-center w-full justify-end px-11">
-        <Link className='text-white pl-[5%]' to="/home">Home</Link>
-        <Link className='text-white pl-[5%]' to="/">NFT's</Link>
-        <Link className='text-white pl-[5%]' to="/">Blockchain</Link>
-        <Link className='text-white pl-[5%]' to="/">Blog</Link>
-        <Link className='text-white pl-[5%]' to="/">Contact</Link>
+          <Link className='text-white pl-[5%]' to="/home">Home</Link>
+          <Link className='text-white pl-[5%]' to="/page">NFT's</Link>
+          <Link className='text-white pl-[5%]' to="/home">Blockchain</Link>
+          <Link className='text-white pl-[5%]' to="/page">Blog</Link>
+          <Link className='text-white pl-[5%]' to="/subscribe">Contact</Link>
       </nav>
       <MobileMenu />
     </div>

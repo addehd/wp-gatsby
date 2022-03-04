@@ -31,8 +31,8 @@ export default function Subscribe() {
       <div id="mailchimp" className='flex column'>
         <form className="ml-11 mr-11">
           <input ref={yourMail} type="email" placeholder="Your email" />
-          <button onClick={handleSubmit} type="submit">GET PRE-RELEASE INFO</button>
-          { isOpen && <p className='ml-5 mt-3 '>Thank you! {console.log(isOpen)}</p>}
+          <button onClick={handleSubmit} className="mb-[-10rem] sm:mb-0" type="submit">GET PRE-RELEASE INFO</button>
+          { isOpen && <p className='ml-5 mt-3'>Thank you! {console.log(isOpen)}</p>}
         </form>
       </div>
       <Banner/>

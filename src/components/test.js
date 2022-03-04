@@ -11,7 +11,7 @@ export default function test() {
             <img className="w-full top-0 bottom-0 mb-0 sm:mb-auto m-auto h-auto absolute left-0" src={Fighter}></img>
             <img className="pulse w-full top-0 bottom-0 mb-0 sm:mb-auto m-auto h-auto absolute left-0" src={Line}></img>
             {/* <img className="pulse-slow w-full top-0 bottom-0 m-auto h-auto absolute left-0" src={Line}></img> */}
-            <Circle />
+            <Circle test="test"/>
           </div>
           
           <div className="flex justify-center flex-col p-5 pb-20  sm:p-11 w-[100%] sm:w-1/3">

@@ -5,8 +5,7 @@ export default function MobileMenu() {
   const [menu, showMenu] = useState(true);
   
   function toggleMenu() {
-    showMenu(!menu);
-    console.log(menu); }
+    showMenu(!menu); }
 
   return (
     <>
@@ -20,12 +19,12 @@ export default function MobileMenu() {
           </div>
       </section>
       <div className={ menu ? "sideoff": "sidemove" }  id="side">
-          <nav>
-          <Link className='text-white pl-[5%]' to="/home">Home</Link>
-          <Link className='text-white pl-[5%]' to="/">NFT's</Link>
-          <Link className='text-white pl-[5%]' to="/">Blockchain</Link>
-          <Link className='text-white pl-[5%]' to="/">Blog</Link>
-          <Link className='text-white pl-[5%]' to="/">Contact</Link>
+          <nav onClick={toggleMenu}>
+          <Link className='text-red m-[0.8rem]' to="/home">Home</Link>
+          <Link className='text-red m-[0.8rem]' to="/page">NFT's</Link>
+          <Link className='text-red m-[0.8rem]' to="/home">Blockchain</Link>
+          <Link className='text-red m-[0.8rem]' to="/page">Blog</Link>
+          <Link className='text-red m-[0.8rem]' to="/subscribe">Contact</Link>
           </nav>
       </div>
     </>
