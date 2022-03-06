@@ -3,7 +3,6 @@ import CircleSVG from "../media/bu-circle.svg"
 
 export default function Circle(test) {
   const [show, setShow] = React.useState(false)
-  console.log(test)
   const handleClick = () => {
     setShow(!show) }
 

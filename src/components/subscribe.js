@@ -35,7 +35,7 @@ export default function Subscribe() {
           { isOpen && <p className='ml-5 mt-3'>Thank you! {console.log(isOpen)}</p>}
         </form>
       </div>
-      <Banner/>
+      <Banner style="red"/>
     </>
   )
 }

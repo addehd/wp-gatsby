@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body, #gatsby-focus-wrapper {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background: red; }
 
   p, a, h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.15rem;
@@ -19,8 +20,16 @@ letter-spacing: 0.15rem;
 text-rendering: optimizeLegibility;
 font-family: sans-serif; }
 
+.button {
+  border: solid 1px white;
+  display: list-item;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+}
+
 .rotate{
-  animation: rotate 11s linear infinite; 
+  animation: rotate 17s linear infinite; 
 }
 @keyframes rotate{
   to{ transform: rotate(360deg); }

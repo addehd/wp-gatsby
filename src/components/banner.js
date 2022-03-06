@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function banner() {
+export default function banner(style) {
+  console.log(style)
   return (
     <div id="subscribe-banner" className='overflow-hidden'>
       <div className="sliding-background">
