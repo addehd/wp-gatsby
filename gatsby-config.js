@@ -31,6 +31,9 @@ module.exports = {
           `https://wordpress-569340-2431551.cloudwaysapps.com/graphql`,
       },
     },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, 
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
