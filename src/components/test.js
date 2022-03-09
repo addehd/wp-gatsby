@@ -40,7 +40,7 @@ export default function Test() {
 
               <p className="py-3">Cryptocurrency is the most significant economic shift of wealth in history where there are no barriers.</p>
               
-              <p className="py-3">And we the BJJ community can’t afford to be left behind, and for that reason, we decided to take the initiative to make sure that our community get our fair share of the crypto market cap that is projected to hit $2 trillion this year (2022)</p>
+              <p className="py-3">And we the BJJ community can’t afford to be left behind, and for that reason, we decided to take the initiative to make sure that our community get it´s fair share of the crypto market cap that is projected to hit $2 trillion this year (2022).</p>
             </div>
 
           </div>

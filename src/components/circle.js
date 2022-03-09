@@ -14,7 +14,7 @@ export default function Circle(test) {
           <tbody>
           <tr>
             <th>Name</th>
-            <td>Buchecha...</td>
+            <td>Buchecha</td>
           </tr>
           <tr>
             <th>Nationality</th>

@@ -8,21 +8,21 @@ export default function LeoStats(test) {
 
   return (
     <>
-      <img onClick={handleClick}  className="top-0 left-[11rem] bottom-0 right-0 m-auto h-auto absolute max-w-[4rem] sm:max-w-[5rem] rotate" src={LeoCircleSVG}></img>
-      <div  onClick={handleClick} className="top-0 left-[2rem] bottom-0 right-0 m-auto h-auto absolute w-[11rem] h-[8rem] bottom-[7rem] buchecha"  style={ show ? { visibility:'visible', transition: 'background-color 0.2s ease-in' } : {visibility:'hidden'}}>
+      <img onClick={handleClick}  className="top-[0] left-[7rem] bottom-[6rem] sm:bottom-[21rem]  right-0 m-auto h-auto absolute max-w-[4rem] sm:max-w-[5rem] rotate" src={LeoCircleSVG}></img>
+      <div  onClick={handleClick} className="top-[0] left-[2rem] bottom-[7rem] sm:bottom-[22rem]  right-0 m-auto h-auto absolute w-[11rem] h-[8rem] bottom-[7rem] buchecha"  style={ show ? { visibility:'visible', transition: 'background-color 0.2s ease-in' } : {visibility:'hidden'}}>
         <table className="infobox vcard">
           <tbody>
           <tr>
             <th>Name</th>
-            <td>Leo Viera</td>
+            <td>Leo Vieira</td>
           </tr>
           <tr>
             <th>Nationality</th>
-            <td>Brazilian<br />American</td>
+            <td>Brazilian</td>
           </tr>
           <tr>
             <th>Rank</th>
-            <td>6th Degree Black Bel</td>
+            <td>6th Degree Black Belt</td>
           </tr>
           <tr>
             <th>Status</th>

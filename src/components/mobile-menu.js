@@ -22,7 +22,7 @@ export default function MobileMenu() {
           <nav onClick={toggleMenu}>
           <Link className='text-red m-[0.8rem]' to="/home">Home</Link>
           <Link className='text-red m-[0.8rem]' to="/page">NFT's</Link>
-          <Link className='text-red m-[0.8rem]' to="/home">Blockchain</Link>
+          <Link className='text-red m-[0.8rem]' to="/home">Token</Link>
           <Link className='text-red m-[0.8rem]' to="/page">Blog</Link>
           <Link className='text-red m-[0.8rem]' to="/subscribe">Contact</Link>
           </nav>
