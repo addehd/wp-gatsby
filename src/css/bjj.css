@@ -25,7 +25,23 @@ font-family: sans-serif; }
   display: list-item;
   width: fit-content;
   padding: 0.5rem 1rem;
-  border-radius: 3rem;
+  border-radius: 3rem; }
+
+
+.square {
+  position: relative;
+  width: 100%; }
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .rotate{
@@ -102,11 +118,11 @@ font-family: sans-serif; }
   visibility: inherit;
   box-sizing: inherit;
   color: white;
-  font-size: 18px;
+
   text-transform: uppercase; } 
 
 #subscribe-banner .btn-pill {
-    font-size: 18px;
+  
     box-sizing: inherit;
     text-decoration: none;
     background-color: transparent;
