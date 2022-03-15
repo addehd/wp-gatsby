@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useRef } from 'react'
 import Line from "../media/buchecha-lines.png"
-import Fighter from "../media/buchecha.png"
+import Fighter from "../media/buchecha.webp"
 import Circle from "../components/circle"
 
 export default function Hero() {

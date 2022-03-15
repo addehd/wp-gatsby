@@ -26,7 +26,7 @@ export default function Header() {
       <Link className='z-[3]' to="/"><img className="w-[15rem] sm:w-[25rem] px-7 sm:px-11" src={Logo}></img></Link>
       <nav className="hidden sm:flex items-center w-full justify-end px-11">
           <Link className='text-white pl-[5%]' to="/home">Home</Link>
-          <Link className='text-white pl-[5%]' to="/page">NFT's</Link>
+          <Link className='text-white pl-[5%]' to="/nfts">NFT's</Link>
           <Link className='text-white pl-[5%]' to="/token">Token</Link>
           <Link className='text-white pl-[5%]' to="/page">Blog</Link>
           <Link className='text-white pl-[5%]' to="/subscribe">Contact</Link>
