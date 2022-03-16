@@ -28,27 +28,46 @@ export default function NFTS() {
             </div> */}
         </section>
       </div>
-      <div>
-      <div className="bg-[#2d2d4c] bg-[url('../media/texture-lines.webp')] bg-cover pt-[5%] pb-[5%]">
-      <h5 className='text-white text-center text-[#616dcd]'>Buchecha NFT Hologram Series</h5>
-        <section className='container grid grid-cols-2 sm:grid-cols-5 lg:grid-cols-5 gap-5 sm:gap-4 mx-auto  p-6 sm:p-11 '>
-         
-          <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
-            <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
-          </div>
-          <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
-            <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
-          </div>
-          <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
-            <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
-          </div>
-          <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
-            <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
-          </div>
-          <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
-            <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
-          </div>
-        </section>
+      <div className='nfts'>
+        <div className="bg-[#2d2d4c] bg-[url('../media/texture-lines.webp')] bg-cover pt-[5%] pb-[5%]">
+        <h5 className='text-white text-center text-[#616dcd]'>Buchecha NFT Hologram Series</h5>
+          <section className='container grid grid-cols-2 sm:grid-cols-5 lg:grid-cols-5 gap-5 sm:gap-4 mx-auto  p-6 sm:p-11 '>
+            
+            <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
+              <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
+            </div>
+            <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
+              <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
+            </div>
+            <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
+              <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
+            </div>
+            <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
+              <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
+            </div>
+            <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
+              <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
+            </div>
+          </section>
+          <h5 className='text-white text-center text-[#616dcd]'>Leo Vieira NFT Hologram Series</h5>
+          <section className='container grid grid-cols-2 sm:grid-cols-5 lg:grid-cols-5 gap-5 sm:gap-4 mx-auto  p-6 sm:p-11 '>
+            
+            <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
+              <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
+            </div>
+            <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
+              <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
+            </div>
+            <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
+              <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
+            </div>
+            <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
+              <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
+            </div>
+            <div className="rounded-lg bg-bjjblue border-solid border-[1px] border-[#6e84f4]">
+              <img className="w-full pt-1 pb-1" src={BuchechaNFT}/>
+            </div>
+          </section>
         </div>
       </div>
       <Footer />

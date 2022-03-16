@@ -8,21 +8,22 @@ import Hero from "../components/hero"
 import Header from "../components/header"
 import Message from "../components/message"
 import Test from "../components/test"
+import NinjaTurtle from "../components/ninjaturtle"
 import Grid from "../components/grid"
-import Footer from "../components/footer"
 
 const IndexPage = () => {
+  // const siteTitle = data.site.siteMetadata.title
   return (
     <>
-      <Seo title="Index" />
-      {/* <Subscribe /> */}
+      <Seo title="BJJ Token" />
       <Header />
-      <Hero />
+      <Subscribe />
+      {/* <Hero />
       <Message />
       <Test />
-      <Grid />
+      <NinjaTurtle /> */}
       {/* <Layout/> */}
-      <Footer />
+
     </>
   )
 }

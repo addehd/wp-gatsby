@@ -22,10 +22,10 @@ export default function Header() {
   }, [offset]);
 
   return (
-    <div style={ visible ? { background:'#000000d9', transition: 'background-color 0.2s ease-in' } : {}} className="fadein header m-auto fixed z-20 w-full flex">
+    <div style={ visible ? { background:'#000000e8', transition: 'background-color 0.2s ease-in' } : {}} className="fadein header m-auto fixed z-20 w-full flex">
       <Link className='z-[3]' to="/"><img className="w-[15rem] sm:w-[25rem] px-7 sm:px-11" src={Logo}></img></Link>
       <nav className="hidden sm:flex items-center w-full justify-end px-11">
-          <Link className='text-white pl-[5%]' to="/home">Home</Link>
+          <Link className='text-white pl-[5%]' to="/">Home</Link>
           <Link className='text-white pl-[5%]' to="/nfts">NFT's</Link>
           <Link className='text-white pl-[5%]' to="/token">Token</Link>
           <Link className='text-white pl-[5%]' to="/page">Blog</Link>

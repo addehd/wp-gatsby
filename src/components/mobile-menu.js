@@ -20,7 +20,7 @@ export default function MobileMenu() {
       </section>
       <div className={ menu ? "sideoff": "sidemove" }  id="side">
           <nav onClick={toggleMenu}>
-          <Link className='text-red m-[0.8rem]' to="/home">Home</Link>
+          <Link className='text-red m-[0.8rem]' to="/">Home</Link>
           <Link className='text-red m-[0.8rem]' to="/nfts">NFT's</Link>
           <Link className='text-red m-[0.8rem]' to="/token">Token</Link>
           <Link className='text-red m-[0.8rem]' to="/page">Blog</Link>
