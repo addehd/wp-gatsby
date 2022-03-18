@@ -6,10 +6,14 @@ body, #gatsby-focus-wrapper {
   overflow-x: hidden;
   background: red; }
 
-  p, a, h1, h2, h3, h4, h5, h6 {
+  li, p, a, h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.15rem;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+li {
+  list-style: square!important;
 }
 
 span, button {
